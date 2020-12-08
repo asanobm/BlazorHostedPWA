@@ -7,6 +7,7 @@
 
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'BlazorHostedPWA' " />
   <ItemGroup>
+    <PackageReference Include="bootstrap" Version="5.0.0-alpha3" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="5.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="5.0.0" PrivateAssets="all" />
     <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="5.0.0" />
