@@ -28,7 +28,7 @@ namespace BlazorHostedPWA.Server
       services.AddRazorPages();
       services.AddResponseCompression(options =>
       {
-        options.MimeTypes = ResponseCompressionDefaults.MimeTypes.Concat(new[] { "application/otcet-stream" });
+        options.MimeTypes = ResponseCompressionDefaults.MimeTypes.Concat(new[] { "application/octet-stream" });
       });
     }
 
